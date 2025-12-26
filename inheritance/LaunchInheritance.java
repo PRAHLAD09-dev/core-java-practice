@@ -58,10 +58,7 @@ public class LaunchInheritance
     public static void main(String[] args)
     {
         Car car = new Car(120,4,"Petrol");
-        // car.speed = 120;
-        // car.wheels = 4;
-        // car.fuelType = "Petrol";
-
+        
         car.start();
         car.carDetails();
         car.stop();
@@ -69,10 +66,7 @@ public class LaunchInheritance
         System.out.println("****************");
 
         Bike bike = new Bike(90,2,true);
-        // bike.speed = 90;
-        // bike.wheels = 2;
-        // bike.hasKickStart = true;
-
+        
         bike.start();
         bike.bikeDetails();
         bike.stop();
