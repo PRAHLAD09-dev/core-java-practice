@@ -1,25 +1,28 @@
 # Core Java Practice
- This repository contains my Core Java   practice code covering fundamental OOP  concepts with clear, real-world         examples.
+ This repository contains my Core Java   practice code covering fundamental OOP  concepts with clear, real-world examples.
  
-✅ Encapsulation
+ # Encapsulation
 -Private data members
 -Constructor initialization
 -Getters for controlled access
 -toString() override
 -Real-world example: BankAccount
-📁 Folder: encapsulation/
+- Folder: encapsulation/
 
-✅ Inheritance
+ # Inheritance
 -Parent–child relationship
 -Code reuse using extends
--Real-world example: Vehicle → Car /     Bike
-📁 Folder: inheritance/
+-Real-world example: Vehicle → Car / Bike
+-Folder: inheritance/
 
-#
+# Polymorphism
+- Runtime polymorphism using method overriding
+- Parent reference holding child object
+- Same method call, different behavior at runtime
+- Real-world example: Payment system (UPI / Credit Card / Net Banking)
+- Folder: polymorphism/
 
-
-🚀 Upcoming Topics
--Polymorphism
+## Upcoming Topics
 -Abstraction
 -Interfaces
 -Loose Coupling
@@ -34,12 +37,12 @@
 - Git & GitHub
   
 ## Structure
-- Each folder represents a single Core    Java / OOP concept
-- Concepts are implemented                independently for better clarity
-- Examples are simple, readable, and      focused on learning
-- Emphasis on core Java fundamentals      and real-world logic
+- Each folder represents a single Core Java / OOP concept
+- Concepts are implemented independently for better clarity
+- Examples are simple, readable, and focused on learning
+- Emphasis on core Java fundamentals and real-world logic
 
 ## Purpose
- This repository is created to           strengthen my Core Java and OOP         fundamentals through hands-on practice  and real-world examples.
+ This repository is created to strengthen my Core Java and OOP fundamentals through hands-on practice  and real-world examples.
 
-This repository will be continuously updated as I progress further in Core Java.
+ This repository will be continuously updated as I progress further in Core Java.
