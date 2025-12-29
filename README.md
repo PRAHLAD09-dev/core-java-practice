@@ -1,19 +1,19 @@
 # Core Java Practice
- This repository contains my Core Java   practice code covering fundamental OOP  concepts with clear, real-world examples.
+ This repository contains my Core Java practice code covering fundamental OOP concepts with clear, real-world examples.
  
  # Encapsulation
--Private data members
--Constructor initialization
--Getters for controlled access
--toString() override
--Real-world example: BankAccount
+- Private data members
+- Constructor initialization
+- Getters for controlled access
+- toString() override
+- Real-world example: BankAccount
 - Folder: encapsulation/
 
  # Inheritance
--Parent–child relationship
--Code reuse using extends
--Real-world example: Vehicle → Car / Bike
--Folder: inheritance/
+- Parent–child relationship
+- Code reuse using extends
+- Real-world example: Vehicle → Car / Bike
+- Folder: inheritance/
 
 # Polymorphism
 - Runtime polymorphism using method overriding
@@ -22,14 +22,20 @@
 - Real-world example: Payment system (UPI / Credit Card / Net Banking)
 - Folder: polymorphism/
 
+  # Abstraction
+- Abstract class used to define common payment structure
+- Abstract method enforces implementation in child classes
+- Parent reference used to achieve runtime polymorphism
+- Real-world example: Payment system (UPI / Credit Card / Net Banking)
+- Folder: abstraction/
+
 ## Upcoming Topics
--Abstraction
--Interfaces
--Loose Coupling
--Exception Handling
--Collections Framework
--Multithreading
--Stream API
+- Interfaces
+- Loose Coupling
+- Exception Handling
+- Collections Framework
+- Multithreading
+- Stream API
 
 ## Tech Stack
 - Java
