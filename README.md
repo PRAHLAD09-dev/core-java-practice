@@ -29,8 +29,14 @@
 - Real-world example: Payment system (UPI / Credit Card / Net Banking)
 - Folder: abstraction/
 
+## Interface
+- Interface used for complete abstraction
+- Runtime selection of implementation using user input
+- Loose coupling via service class
+- Real-world example: Notification system
+- Folder: interface/
+
 ## Upcoming Topics
-- Interfaces
 - Loose Coupling
 - Exception Handling
 - Collections Framework
