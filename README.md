@@ -1,7 +1,7 @@
-# Core Java Practice
+## Core Java Practice
  This repository contains my Core Java practice code covering fundamental OOP concepts with clear, real-world examples.
  
- # Encapsulation
+# Encapsulation
 - Private data members
 - Constructor initialization
 - Getters for controlled access
@@ -22,19 +22,26 @@
 - Real-world example: Payment system (UPI / Credit Card / Net Banking)
 - Folder: polymorphism/
 
-  # Abstraction
+# Abstraction
 - Abstract class used to define common payment structure
 - Abstract method enforces implementation in child classes
 - Parent reference used to achieve runtime polymorphism
 - Real-world example: Payment system (UPI / Credit Card / Net Banking)
 - Folder: abstraction/
 
-## Interface
+# Interface
 - Interface used for complete abstraction
 - Runtime selection of implementation using user input
 - Loose coupling via service class
 - Real-world example: Notification system
 - Folder: interface/
+ 
+# Abstract vs Interface
+- Abstract class is used when objects share state and behavior
+- Interface is used to define capabilities that multiple unrelated classes can implement
+- Abstract supports constructors and instance variables
+- Interface supports multiple inheritance
+
 
 ## Upcoming Topics
 - Loose Coupling
