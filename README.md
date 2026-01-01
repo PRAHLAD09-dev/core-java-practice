@@ -1,4 +1,4 @@
-## Core Java Practice
+# Core Java Practice
  This repository contains my Core Java practice code covering fundamental OOP concepts with clear, real-world examples.
  
 # Encapsulation
@@ -9,7 +9,7 @@
 - Real-world example: BankAccount
 - Folder: encapsulation/
 
- # Inheritance
+# Inheritance
 - Parent–child relationship
 - Code reuse using extends
 - Real-world example: Vehicle → Car / Bike
@@ -42,9 +42,25 @@
 - Abstract supports constructors and instance variables
 - Interface supports multiple inheritance
 
+# Amazon Delivery System (Loose Coupling)
+This project demonstrates **loose coupling in Java** using a real-world
+Amazon delivery example.
 
-## Upcoming Topics
+### Concepts Used
+- Interface
+- Runtime Polymorphism
+- Dependency Injection
 - Loose Coupling
+- Clean Architecture
+
+### Flow
+User selects a delivery partner (FedEx / BlueDart/Delhivery).
+Amazon depends only on the interface, not concrete classes.
+
+### Key Advantage
+New delivery partners can be added without modifying Amazon class.
+
+# Upcoming Topics
 - Exception Handling
 - Collections Framework
 - Multithreading
