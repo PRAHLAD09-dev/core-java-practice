@@ -60,8 +60,57 @@ Amazon depends only on the interface, not concrete classes.
 ### Key Advantage
 New delivery partners can be added without modifying Amazon class.
 
+# Exception Handling in Java
+
+This module demonstrates Java Exception Handling concepts using
+real-world scenarios with custom exceptions and retry mechanisms.
+
+## Concepts Covered
+- Checked Exceptions  
+- Custom Exception Classes  
+- throw vs throws  
+- Multiple catch blocks  
+- Exception propagation  
+- Retry logic using loops  
+
+---
+
+## Example 1: Bank Login System (Retry & Block)
+
+### Scenario
+- User must enter valid credentials / details  
+- Only 3 attempts are allowed  
+- After 3 failed attempts → account gets blocked  
+
+### Key Learnings
+- Creating and throwing custom exceptions  
+- Handling failures using try-catch  
+- Implementing retry logic  
+- Controlling application flow after exceptions  
+
+---
+
+## Example 2: Age Verification System (RTO Case)
+
+### Scenario
+A user applies for a license:
+- Age must be between 18 and 60  
+- Below 18 → UnderAgeException  
+- Above 60 → OverAgeException  
+- User gets maximum 3 attempts  
+
+### Key Learnings
+- Business-rule based exception handling  
+- Custom exception messages  
+- Exception propagation with throws  
+- Clean separation of input, validation, and control flow  
+
+### Folder Structure
+-exception-handling/
+├── LaunchEH1.java        // Bank login example
+├── LaunchEH2.java        // RTO age validation
+
 # Upcoming Topics
-- Exception Handling
 - Collections Framework
 - Multithreading
 - Stream API
