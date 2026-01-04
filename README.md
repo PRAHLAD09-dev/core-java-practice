@@ -110,6 +110,22 @@ A user applies for a license:
 ├── LaunchEH1.java        // Bank login example
 ├── LaunchEH2.java        // RTO age validation
 
+# Java Collections Practice
+
+This repository contains hands-on Java examples for understanding
+the Java Collections Framework with practical demos.
+
+## Day 1
+- List vs Set vs Map
+- ArrayList vs LinkedList
+
+## Upcoming
+- HashMap vs TreeMap
+- Iterator vs ListIterator vs for-each
+- Comparable vs Comparator
+
+> Each topic includes runnable examples with comments for clarity.
+
 # Upcoming Topics
 - Collections Framework
 - Multithreading
