@@ -119,9 +119,49 @@ the Java Collections Framework with practical demos.
 - List vs Set vs Map
 - ArrayList vs LinkedList
 
+## Day 2: Java Collections – Maps & Iteration
+
+### 🔹 Topics Covered
+
+### HashMap vs TreeMap
+- Implemented HashMap and TreeMap using a real-world Passport records example.
+- Demonstrated key-value storage and searching using containsKey() and get().
+- Explained ordering behavior:
+- HashMap does not guarantee any order.
+- TreeMap maintains sorted order based on keys.
+- Highlighted performance and use-case differences.
+
+### Folder:
+HashMap_vs_TreeMap
+
+---
+
+### Iterator vs ListIterator vs For-Each Loop
+- Implemented and compared:
+- Iterator
+- ListIterator
+- Enhanced for-each loop
+- Demonstrated:
+- Forward and backward traversal
+- Safe and unsafe modification during iteration
+- Fail-fast behavior of Iterator and for-each loop
+- Fail-safe behavior using CopyOnWriteArrayList
+- Explained ConcurrentModificationException with practical examples.
+
+### Folder:
+Iterator_vs_ListIterator_ForEachLoop
+
+---
+
+###  Key Learnings
+- Practical understanding of Java Map implementations
+- Clear difference between fail-fast and fail-safe iteration
+- When to use Iterator, ListIterator, or for-each loop
+- Importance of choosing the right collection based on requirements
+
+---
+
 ## Upcoming
-- HashMap vs TreeMap
-- Iterator vs ListIterator vs for-each
 - Comparable vs Comparator
 
 > Each topic includes runnable examples with comments for clarity.
