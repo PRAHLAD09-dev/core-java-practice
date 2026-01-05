@@ -115,9 +115,30 @@ A user applies for a license:
 This repository contains hands-on Java examples for understanding
 the Java Collections Framework with practical demos.
 
-## Day 1
-- List vs Set vs Map
-- ArrayList vs LinkedList
+## Day 1: Java Collections Basics
+
+This day focuses on understanding the fundamentals of the Java Collections Framework,
+including core interfaces and commonly used implementations with simple examples.
+
+### Topics Covered
+
+### List vs Set vs Map
+- List allows duplicate elements and maintains insertion order
+- Set does not allow duplicates
+- Map stores data in key-value pairs
+
+This example demonstrates how different collection types behave based on data storage needs.
+
+### ArrayList vs LinkedList
+- ArrayList provides faster access by index
+- LinkedList performs better in insertion and deletion operations
+
+The example highlights structural and performance differences.
+
+### Key Learnings
+- Clear understanding of Collection interfaces
+- Practical difference between List, Set, and Map
+- Performance comparison of ArrayList and LinkedList
 
 ## Day 2: Java Collections – Maps & Iteration
 
