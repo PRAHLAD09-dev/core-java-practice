@@ -42,7 +42,7 @@
 - Abstract supports constructors and instance variables
 - Interface supports multiple inheritance
 
-# Amazon Delivery System (Loose Coupling)
+## Amazon Delivery System (Loose Coupling)
 This project demonstrates **loose coupling in Java** using a real-world
 Amazon delivery example.
 
@@ -181,14 +181,55 @@ Iterator_vs_ListIterator_ForEachLoop
 - Importance of choosing the right collection based on requirements
 
 ---
+## Comparable vs Comparator in Java
 
-## Upcoming
+This project demonstrates sorting of complex objects in Java using both  
+Comparable and Comparator interfaces.
+
+---
+
+### Example 1: Comparable (Natural Ordering)
+
+- Cricketer class implements Comparable
+- Sorting is based on age
+- Uses compareTo() method
+- Suitable when only one natural sorting logic is required
+
+### Key Point
+> Comparable is used when a class has a single, default sorting order.
+
+---
+
+### Example 2: Comparator (Multiple Sorting Strategies)
+
+- Separate Comparator implementations:
+- AgeComparator
+- NameComparator
+- AvgComparator
+- Uses compare() method
+- Allows multiple sorting strategies without modifying the main class
+
+### Key Point
+> Comparator follows the Strategy Pattern and supports multiple sorting logics.
+
+---
+
+### Concepts Covered
 - Comparable vs Comparator
+- Collections.sort()
+- Strategy Pattern
+- Object comparison
+- Clean OOP design principles
+
+---
+### Output
+- Sort by age
+- Sort by name
+- Sort by average
 
 > Each topic includes runnable examples with comments for clarity.
 
 # Upcoming Topics
-- Collections Framework
 - Multithreading
 - Stream API
 
