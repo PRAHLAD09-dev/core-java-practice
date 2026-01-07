@@ -229,9 +229,52 @@ Comparable and Comparator interfaces.
 
 > Each topic includes runnable examples with comments for clarity.
 
+# Java Multithreading Practice
+
+This repository contains Core Java multithreading examples focused on
+understanding concurrency, synchronization, and inter-thread communication.
+
+## Topics Covered
+
+### 1. Semaphore Library Example
+- Real-world Library–Student simulation
+- Use of Semaphore for controlling shared resources
+- JAVA, DSA, SPRINGBOOT treated as limited resources
+- Multiple student threads accessing books
+- Thread.sleep() used inside the same example to observe thread behavior
+- Proper acquire and release of semaphores
+
+Folder:01_Synchronized_Runnable/
+
+### 2. Producer Consumer (Inter Thread Communication)
+- Classic Producer–Consumer problem
+- Shared Queue implementation
+- Usage of wait() and notify()
+- Proper thread coordination
+- Avoiding race conditions
+
+Folder:02_Inter_thread_communication
+
+## Concepts Practiced
+- Multithreading
+- Semaphore
+- Synchronization
+- Thread lifecycle
+- Thread.sleep usage
+- Inter-thread communication
+
 # Upcoming Topics
 - Multithreading
 - Stream API
+
+## How to Run
+Compile and run any file using:
+
+javac FileName.java  
+java FileName
+
+Or run directly from IDE.
+
 
 ## Tech Stack
 - Java
