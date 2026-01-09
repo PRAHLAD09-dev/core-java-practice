@@ -263,8 +263,70 @@ Folder:02_Inter_thread_communication
 - Thread.sleep usage
 - Inter-thread communication
 
+# Java Multithreading – Advanced Concepts
+
+This repository contains advanced Java multithreading examples implemented
+using real-world scenarios. The focus is on understanding thread coordination,
+deadlocks, prevention techniques, and modern concurrency utilities.
+
+---
+
+## Topics Covered
+
+### 1. Deadlock (Problem Demonstration)
+- Real-world traffic junction example
+- Multiple threads acquiring resources in different order
+- Circular wait condition
+- System freeze due to deadlock
+
+Folder:
+03_deadlock
+
+---
+
+### 2. Deadlock Prevention (Lock Ordering)
+- Same traffic junction scenario
+- Deadlock resolved using global lock ordering
+- Consistent resource acquisition order
+- Breaking circular wait condition
+
+Folder:
+04_deadlock_prevention
+
+---
+
+### 3. ExecutorService (Thread Pool)
+- Fixed thread pool implementation
+- Reuse of threads instead of creating new ones
+- Multiple tasks executed using limited threads
+- Proper shutdown of ExecutorService
+
+Folder:
+05_executor_service
+
+---
+
+### 4. Callable and Future
+- Asynchronous task execution
+- Returning values from threads
+- Exception handling in threads
+- Using Future to retrieve results
+
+Folder:
+06_callable_future
+
+---
+
+## Key Concepts Practiced
+- Multithreading fundamentals
+- Deadlock and prevention strategies
+- Thread pool management
+- Asynchronous computation
+- Java concurrency utilities
+
+---
+
 # Upcoming Topics
-- Multithreading
 - Stream API
 
 ## How to Run
