@@ -325,6 +325,17 @@ Folder:
 - Java concurrency utilities
 
 ---
+## Lambda Expression (Java)
+
+This module covers all core lambda expression use-cases:
+
+- Functional Interface implementation
+- Runnable using lambda
+- Comparator using lambda
+- forEach with lambda on collections
+
+These examples demonstrate how lambda expressions simplify code
+and improve readability in Java.
 
 # Upcoming Topics
 - Stream API
