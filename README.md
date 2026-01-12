@@ -337,6 +337,22 @@ This module covers all core lambda expression use-cases:
 These examples demonstrate how lambda expressions simplify code
 and improve readability in Java.
 
+## Stream API 
+
+### (Basics)
+Covered:
+- stream()
+- filter()
+- map()
+- forEach()
+- sorted() (ASC / DESC)
+- count()
+- findFirst()
+- anyMatch()
+
+Example:
+Employee stream operations (filtering, sorting, mapping)
+
 # Upcoming Topics
 - Stream API
 
