@@ -339,22 +339,24 @@ and improve readability in Java.
 
 ## Stream API 
 
-### (Basics)
-Covered:
-- stream()
-- filter()
-- map()
-- forEach()
-- sorted() (ASC / DESC)
-- count()
-- findFirst()
-- anyMatch()
+#### Basic Stream Operations
+- `filter()`
+- `map()`
+- `sorted()`
+- `forEach()`
+- `count()`
+- `anyMatch()`
+- `findFirst()`
 
-Example:
-Employee stream operations (filtering, sorting, mapping)
+📂 Folder: `stream-api/basic/`
 
-# Upcoming Topics
-- Stream API
+#### Advanced Stream Operations
+- `Collectors.toList()`
+- `Collectors.groupingBy()`
+- `reduce()`
+- `min()` / `max()`
+
+📂 Folder: `stream-api/advance/`
 
 ## How to Run
 Compile and run any file using:
