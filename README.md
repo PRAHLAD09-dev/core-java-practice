@@ -348,7 +348,7 @@ and improve readability in Java.
 - `anyMatch()`
 - `findFirst()`
 
-📂 Folder: `stream-api/basic/`
+-Folder: `stream-api/basic/`
 
 #### Advanced Stream Operations
 - `Collectors.toList()`
@@ -356,7 +356,7 @@ and improve readability in Java.
 - `reduce()`
 - `min()` / `max()`
 
-📂 Folder: `stream-api/advance/`
+-Folder: `stream-api/advance/`
 
 ## How to Run
 Compile and run any file using:
@@ -375,10 +375,17 @@ Or run directly from IDE.
 ## Structure
 - Each folder represents a single Core Java / OOP concept
 - Concepts are implemented independently for better clarity
-- Examples are simple, readable, and focused on learning
-- Emphasis on core Java fundamentals and real-world logic
+- Code is clean, readable, and interview-focused
+- Emphasis on real-world logic and practical understanding
 
 ## Purpose
- This repository is created to strengthen my Core Java and OOP fundamentals through hands-on practice  and real-world examples.
+This repository was created to strengthen my Core Java and OOP fundamentals
+through hands-on practice and real-world examples.
 
- This repository will be continuously updated as I progress further in Core Java.
+All planned Core Java topics have now been completed successfully.
+This repository is officially closed and will remain as a reference project.
+
+## Repository Status
+-Completed  
+-Closed  
+-Maintained for reference purposes
